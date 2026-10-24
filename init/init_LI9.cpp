@@ -25,10 +25,10 @@ void vendor_load_properties()
     for (const string &prop : prop_partitions)
     {
         property_override(string("ro.product.") + prop + string("brand"), "TECNO");
-        property_override(string("ro.product.") + prop + string("name"), "LH8n-GL");
-        property_override(string("ro.product.") + prop + string("device"), "TECNO-LH8n");
-        property_override(string("ro.product.") + prop + string("model"), "TECNO LH8n");
-        property_override(string("ro.product.") + prop + string("marketname"), "Tecno Pova 5 Pro");
-        property_override(string("ro.product.system.") + prop + string("device"), "Tecno Pova 5 Pro");
+        property_override(string("ro.product.") + prop + string("name"), "LI9-GL");
+        property_override(string("ro.product.") + prop + string("device"), "TECNO-LI9");
+        property_override(string("ro.product.") + prop + string("model"), "TECNO LI9");
+        property_override(string("ro.product.") + prop + string("marketname"), "Tecno Pova 6 Pro");
+        property_override(string("ro.product.system.") + prop + string("device"), "Tecno Pova 6 Pro");
     }
 }
