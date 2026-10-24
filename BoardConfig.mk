@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/LH8n
+DEVICE_PATH := device/tecno/LI9
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES                   := true
@@ -33,10 +33,10 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := TECNO-LH8n
+TARGET_OTA_ASSERT_DEVICE := TECNO-LI9
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := LH8n
+TARGET_BOOTLOADER_BOARD_NAME := LI9
 TARGET_NO_BOOTLOADER         := true
 TARGET_USES_UEFI             := true
 
@@ -186,11 +186,11 @@ BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE     := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 
 # Init
-TARGET_INIT_VENDOR_LIB         := libinit_LH8n
-TARGET_RECOVERY_DEVICE_MODULES := libinit_LH8n
+TARGET_INIT_VENDOR_LIB         := libinit_LI9
+TARGET_RECOVERY_DEVICE_MODULES := libinit_LI9
 
 # Vendor Modules
 TW_LOAD_VENDOR_BOOT_MODULES := true
 
 # Version
-TW_DEVICE_VERSION := Nazephyrus | LH8n
+TW_DEVICE_VERSION := Bad_Assss X LI9
